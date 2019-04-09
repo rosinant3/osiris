@@ -8,6 +8,10 @@ Back-end part is made with PHP/Zend Expressive. Front-end is made with React.js.
 
 Short presentation of the site it shown on the video below:
 
-[Iris Presentation](https://youtu.be/njz9Wc3Eod4 "OSIRIS PRESENTATION")
+[Osiris Presentation](https://youtu.be/njz9Wc3Eod4 "OSIRIS PRESENTATION")
 
-[![Iris](https://i.ytimg.com/vi/njz9Wc3Eod4/hqdefault.jpg)](https://youtu.be/njz9Wc3Eod4 "IRIS PRESENTATION")
+[![Osiris](https://i.ytimg.com/vi/njz9Wc3Eod4/hqdefault.jpg)](https://youtu.be/njz9Wc3Eod4 "OSIRIS PRESENTATION")
+
+[![Osiris](https://i.imgur.com/bnNVjqm.png)]
+
+[![Osiris](https://i.imgur.com/1QkfnVA.png)]
