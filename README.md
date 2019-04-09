@@ -10,7 +10,7 @@ Short presentation of the site it shown on the video below:
 
 [Osiris Presentation](https://youtu.be/njz9Wc3Eod4 "OSIRIS PRESENTATION")
 
-![Osiris](https://i.ytimg.com/vi/njz9Wc3Eod4/hqdefault.jpg)](https://youtu.be/njz9Wc3Eod4 "OSIRIS PRESENTATION")
+[![Osiris](https://i.ytimg.com/vi/njz9Wc3Eod4/hqdefault.jpg)](https://youtu.be/njz9Wc3Eod4 "OSIRIS PRESENTATION")
 
 1.
 
