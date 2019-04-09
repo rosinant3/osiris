@@ -14,8 +14,8 @@ Short presentation of the site it shown on the video below:
 
 1.
 
-![Osiris](https://i.imgur.com/bnNVjqm.png)]
+![Osiris](https://i.imgur.com/bnNVjqm.png)
 
 2.
 
-![Osiris](https://i.imgur.com/1QkfnVA.png)]
+![Osiris](https://i.imgur.com/1QkfnVA.png)
