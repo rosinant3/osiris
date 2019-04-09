@@ -1,4 +1,4 @@
-# IRIS
+# OSIRIS
 
 CMS for image galleries. 
 
@@ -10,4 +10,4 @@ Short presentation of the site it shown on the video below:
 
 [Iris Presentation](https://youtu.be/njz9Wc3Eod4 "OSIRIS PRESENTATION")
 
-[![Iris](https://www.youtube.com/upload_thumbnail?v=njz9Wc3Eod4&t=hqdefault&ts=1554845584114)](https://youtu.be/njz9Wc3Eod4 "IRIS PRESENTATION")
+[![Iris](https://i.ytimg.com/vi/njz9Wc3Eod4/hqdefault.jpg)](https://youtu.be/njz9Wc3Eod4 "IRIS PRESENTATION")
