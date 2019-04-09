@@ -1,0 +1,47 @@
+{
+  "name": "gatsby-starter-hello-world",
+  "private": true,
+  "description": "A simplified bare-bones starter for Gatsby",
+  "version": "0.1.0",
+  "license": "MIT",
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "npm run develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\"",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "facebook-plugins": "^1.0.5",
+    "gatsby": "^2.3.14",
+    "gatsby-plugin-manifest": "^2.0.26",
+    "gatsby-plugin-offline": "^2.0.23",
+    "gatsby-plugin-react-helmet": "^3.0.12",
+    "gatsby-source-facebook": "^1.0.3",
+    "gatsby-source-instagram": "^0.2.5",
+    "moment": "^2.24.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-helmet": "^5.2.0",
+    "react-linkify": "^0.2.2",
+    "react-redux": "^6.0.0",
+    "react-swipe": "^6.0.4",
+    "redux": "^4.0.1",
+    "swipe-js-iso": "^2.1.5",
+    "underscore": "^1.9.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.0.1",
+    "terser": "^3.17.0"
+  }
+}

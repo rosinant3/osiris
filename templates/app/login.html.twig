@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>{% block title %}Iris - Login{% endblock %}</title>
+        {% block stylesheets %}
+        <link href="assets/css/notes.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+   {% endblock %}
+    </head>
+<body>
+{% block body %}
+<div class="container-fluid container2" style="font-family: 'Lora', serif;">
+<section class="row">
+<div class="col-12" style=" display: flex; height: 100vh; vertical-align: middle; flex-direction: column; align-items: center; justify-content: center;">
+<form method="POST" 
+
+{# change to /register to register an admin account #}
+action="/login" 
+
+style=" display: flex; width: 30%; flex-direction: column; align-items: center; justify-content: center;">
+<input type="text" style="border-width: 1px; border-radius: 5px; margin-bottom: 0.5rem; padding: 0.5rem;" name="username" placeholder="Username" required/>
+<input type="password" style="border-width: 1px; border-radius: 5px; margin-bottom: 0.5rem; padding: 0.5rem;" name="password" placeholder="Password" required/>
+<input style="border-radius: 5px; border-width: 0px; padding: 0.5rem; color: blue; cursor: pointer;"type="submit" value="Login" name="button">
+</form>
+
+</div>
+</section>
+</div>
+{% endblock %}
+{% block javascripts %}
+{% endblock %}
+</body>
+</html>

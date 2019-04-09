@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>{% block title %}Iris - Admin{% endblock %}</title>
+        {% block stylesheets %}
+        <link href="assets/css/admin.css" rel="stylesheet" />
+        <link href="assets/css/adminarticle.css" rel="stylesheet" />
+         <link 
+            rel="stylesheet" 
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" 
+            integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" 
+            crossorigin="anonymous">
+             <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+             <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+        {% endblock %}
+    </head>
+    <body>
+        {% block body %}
+<div class="container-fluid" style="font-family: 'Lora', serif;">
+<header class="row">
+<nav class="col-12" id="navigation">
+<span class="navigation admin">Admin</span>
+<span><a class="navigation menuitem" id="link" href="/">Homepage</a></span>
+<span class="navigation menuitem activemenuitem" id="typewriter2">Typewriter</span>
+<span class="navigation menuitem" id="editor">Editor</span>
+</nav>
+</header>
+<div class="row">
+<section class="col-md-6">
+
+<div class="form-upload">
+<ul id="errors"></ul>
+
+{{fullForm | raw}}
+
+<div style="display: none" id="hideeditor">
+<section class="container5">
+
+</section>
+</div>
+<ul id="posted"></ul>
+
+</div>
+
+
+</section>
+<section class="col-md-6" id="callers">
+<form class="fileUploadForm"><label>Article Images (/uploads/directoryname/(filename):</label>
+    <input style="margin-bottom: 0.5rem;" class="form-control inputwidth" placeholder="Image Directory" name="directory" type="text" required />
+    <input type="text" row="1" id="dirdate" class="form-control inputwidth" placeholder="Date: ex. 26 Aug 2018" name="date" />
+    <input multiple type="file" id="multiFile" name="articlepics[]"/>
+<input type="submit" class="imagebutton" id="upButton" value="Submit"/></form>
+<div class="searchimages">
+<button class="imagebutton" id="getbutton">Get All Images</button>
+<form class="directoryform">
+<input  type="text" name="directory" class="form-control inputwidh" placeholder="Search for directory..." required/>
+<input type="submit" style="margin-left: 1rem" value="Search" class="imagebutton"/>
+</form>
+</div>
+<div class="imagedump" style="margin-bottom: 2rem">
+
+</div>
+</section>
+</div>
+<div class="row maru row-no-padding">
+<article class="col-12">
+<div class="text unique">
+    <span id="category">Projects</span>
+    <h1 id="title"></h1>
+    <p id="description"></p>
+    <span id="authorname"></span>
+    <span id="date"></span>
+</div>
+<div class="body">
+<div class="bodytext" id="article"></div>
+</div>
+</article>
+</div>
+        {% endblock %}
+         {% block javascripts %}
+        <script src="js/admin/moment.js"></script>
+        <script src="js/admin/admin.js"></script>
+        <script src="js/admin/admin-2.js"></script>
+        <script src="js/admin/editor.js"></script>
+        {% endblock %}
+
+</body>
+</html>
