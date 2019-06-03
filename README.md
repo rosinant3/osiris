@@ -21,7 +21,7 @@ I like this project. It's small, convenient and helped me avoid the use of an ex
 - React, a little bit of Redux
 
 
-UI/UX suffered. 
+UI/UX was not the focus of this project.
 
 Short presentation of the site it shown on the video below:
 
