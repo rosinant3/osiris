@@ -13,7 +13,7 @@
     "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "facebook-plugins": "^1.0.5",
     "gatsby": "^2.3.14",
     "gatsby-plugin-manifest": "^2.0.26",
